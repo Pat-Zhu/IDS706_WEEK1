@@ -10,3 +10,8 @@ def add(a: int, b: int) -> int:
 def multiply(a: int, b: int) -> int:
     """Return the product of two numbers."""
     return a*b
+
+if __name__ == "__main__":
+    print(say_hello("Patrick Zhu"))
+    print("5 + 3 =", add(5, 3))
+    print("4 * 3 =", multiply(4, 3))
